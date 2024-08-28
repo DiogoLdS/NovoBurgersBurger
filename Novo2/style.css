@@ -51,7 +51,7 @@
 .meio {
     background-image: url("fundo1.webp");
     background-size: 100%;
-    width: auto;
+    width: 100%;
     height: 680px;
 }
 .meio2 { 
@@ -75,6 +75,7 @@
     align-items: center;
     justify-items: center;
 }
+
 .pesquisa2 {
     grid-column: 1;
     grid-row: 4;
@@ -1395,6 +1396,31 @@
     #burlonext{
         width: 50%;
     }
+    .quadradofor{
+        width: 100%;
+        height: 100%;
+    }
+    .container1for .quadradogd{
+        width: 100%;
+        height: 80%;
+        row-gap: 0%;
+    }
+    .quadrado1for{
+        width: 70%;
+    }
+    .gridscont{
+        height: 50%;
+        row-gap: 15px;
+    }
+    #grid1{
+        row-gap: 40px;
+    }
+    #grid2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .quadrado{
+        width: 70%;
+    }
 }
 @media (max-width: 650px){
     .container2 {
@@ -1406,5 +1432,8 @@
     }
     .enderecofooter, .redesfooter, .czinho {
         display: none;
+    }
+    #textincon{
+        font-size: 11px;
     }
 }
