@@ -49,7 +49,7 @@
     background-color: #8A775B;
 }
 .meio {
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 100%;
     width: 100%;
     height: 680px;
@@ -86,7 +86,7 @@
     grid-row: 3 / 5;
 }
 .final {
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 100%;
     width: auto;
     height: 680px;
@@ -588,13 +588,13 @@
     font-style: normal;
   }  
 .meiocard {
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 100%;
     width: auto;
     height: 680px;
 }
 .meio2card { 
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 100%;
     width: auto;
     height: 480px;
@@ -957,7 +957,7 @@
     }
 }
 .meioext {
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 100%;
     width: auto;
 }
@@ -1071,7 +1071,7 @@
     background: #DCC199;
 }
 .meio2ext { 
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 70%;
     width: auto;
 }
@@ -1113,7 +1113,7 @@
 }
 @media (max-width: 1250px){
     .meio2ext { 
-        background-image: url("../img/fundo1.webp");
+        background-image: url("fundo1.webp");
         background-size: 100%;
         width: auto;
         height: 480px;
@@ -1190,7 +1190,7 @@
       }
 }
 .meiofor {
-    background-image: url("../img/fundo1.webp");
+    background-image: url("fundo1.webp");
     background-size: 100%;
     width: auto;
     height: 980px;
@@ -1397,7 +1397,7 @@
         width: 50%;
     }
     .quadradofor{
-        width: 100%;
+        width: 140%;
         height: 100%;
     }
     .container1for .quadradogd{
@@ -1406,7 +1406,7 @@
         row-gap: 0%;
     }
     .quadrado1for{
-        width: 70%;
+        width: 100%;
     }
     .gridscont{
         height: 50%;
